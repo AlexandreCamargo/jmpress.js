@@ -7,9 +7,9 @@ and utilizes the power of CSS3 transforms and transitions in modern browsers.
 
 ## DEMO
 
-jmpress.js demo: [http://jmpressjs.github.com/jmpress.js/]
+jmpress.js demo: [http://jmpressjs.github.com/jmpress.all.min.js/]
 
-jmpress.js beta demo: [http://jmpressjs.github.com/jmpress.js-beta/]
+jmpress.js beta demo: [http://jmpressjs.github.com/jmpress.all.min.js-beta/]
 
 ## BROWSER SUPPORT
 

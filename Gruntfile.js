@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 			dist: {
 				options: {banner: banner},
 				files: [{
-					'dist/jmpress.js': [
+					'dist/jmpress.all.min.js': [
 						'src/components/core.js',
 						'src/components/near.js',
 						'src/components/transform.js',
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
 						'src/components/jqevents.js',
 						'src/components/animation.js'
 					],
-					'dist/jmpress.impress.js': [
+					'dist/jmpress.all.min.js': [
 						'src/components/core.js',
 						'src/components/near.js',
 						'src/components/transform.js',
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
 						'src/plugins/presentation-mode.js'
 					],
 					'dist/jmpress.all.js': [
-						'dist/jmpress.js',
+						'dist/jmpress.all.min.js',
 						'dist/jmpress.allplugins.js'
 					],
 					'dist/plugins/jmpress.secondary.js': [
@@ -95,8 +95,8 @@ module.exports = function(grunt) {
 			options: {stripBanners: true, banner: banner},
 			dist: {
 				files: [{
-					'dist/jmpress.min.js': ['dist/jmpress.js'],
-					'dist/jmpress.impress.min.js': ['dist/jmpress.impress.js'],
+					'dist/jmpress.min.js': ['dist/jmpress.all.min.js'],
+					'dist/jmpress.impress.min.js': ['dist/jmpress.all.min.js'],
 					'dist/jmpress.all.min.js': ['dist/jmpress.all.js']
 				}]
 			},
